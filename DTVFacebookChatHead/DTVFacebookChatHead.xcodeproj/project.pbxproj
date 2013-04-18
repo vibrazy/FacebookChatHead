@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C124E7F171FEE4400ADCE77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124E7E171FEE4400ADCE77 /* UIKit.framework */; };
+		6C124E81171FEE4400ADCE77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124E80171FEE4400ADCE77 /* Foundation.framework */; };
+		6C124E83171FEE4400ADCE77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124E82171FEE4400ADCE77 /* CoreGraphics.framework */; };
+		6C124E89171FEE4400ADCE77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E87171FEE4400ADCE77 /* InfoPlist.strings */; };
+		6C124E8B171FEE4400ADCE77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124E8A171FEE4400ADCE77 /* main.m */; };
+		6C124E8F171FEE4400ADCE77 /* DTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124E8E171FEE4400ADCE77 /* DTVAppDelegate.m */; };
+		6C124E91171FEE4400ADCE77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E90171FEE4400ADCE77 /* Default.png */; };
+		6C124E93171FEE4400ADCE77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E92171FEE4400ADCE77 /* Default@2x.png */; };
+		6C124E95171FEE4400ADCE77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E94171FEE4400ADCE77 /* Default-568h@2x.png */; };
+		6C124E98171FEE4400ADCE77 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E96171FEE4400ADCE77 /* MainStoryboard_iPhone.storyboard */; };
+		6C124E9B171FEE4400ADCE77 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E99171FEE4400ADCE77 /* MainStoryboard_iPad.storyboard */; };
+		6C124E9E171FEE4400ADCE77 /* DTVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124E9D171FEE4400ADCE77 /* DTVFirstViewController.m */; };
+		6C124EA0171FEE4400ADCE77 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124E9F171FEE4400ADCE77 /* first.png */; };
+		6C124EA2171FEE4400ADCE77 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EA1171FEE4400ADCE77 /* first@2x.png */; };
+		6C124EA5171FEE4400ADCE77 /* DTVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EA4171FEE4400ADCE77 /* DTVSecondViewController.m */; };
+		6C124EA7171FEE4400ADCE77 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EA6171FEE4400ADCE77 /* second.png */; };
+		6C124EA9171FEE4400ADCE77 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EA8171FEE4400ADCE77 /* second@2x.png */; };
+		6C124EB1171FEE4400ADCE77 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124EB0171FEE4400ADCE77 /* SenTestingKit.framework */; };
+		6C124EB2171FEE4400ADCE77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124E7E171FEE4400ADCE77 /* UIKit.framework */; };
+		6C124EB3171FEE4400ADCE77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124E80171FEE4400ADCE77 /* Foundation.framework */; };
+		6C124EBB171FEE4400ADCE77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EB9171FEE4400ADCE77 /* InfoPlist.strings */; };
+		6C124EBE171FEE4400ADCE77 /* DTVFacebookChatHeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EBD171FEE4400ADCE77 /* DTVFacebookChatHeadTests.m */; };
+		6C124ECF171FEE9A00ADCE77 /* PSChatHeadBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124ECA171FEE9A00ADCE77 /* PSChatHeadBubble.m */; };
+		6C124ED0171FEE9A00ADCE77 /* PSChatHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124ECC171FEE9A00ADCE77 /* PSChatHeadView.m */; };
+		6C124ED1171FEE9A00ADCE77 /* PSChatHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124ECE171FEE9A00ADCE77 /* PSChatHeadViewController.m */; };
+		6C124ED3171FEF1400ADCE77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C124ED2171FEF1400ADCE77 /* QuartzCore.framework */; };
+		6C124ED8171FEFA200ADCE77 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124ED7171FEFA200ADCE77 /* ViewUtils.m */; };
+		6C124EDD171FF1CF00ADCE77 /* DTVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EDC171FF1CF00ADCE77 /* DTVTableViewController.m */; };
+		6C124EE1171FFFD900ADCE77 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EDF171FFFD900ADCE77 /* football.png */; };
+		6C124EE2171FFFD900ADCE77 /* football@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EE0171FFFD900ADCE77 /* football@2x.png */; };
+		6C124EE517201DAF00ADCE77 /* PSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EE417201DAD00ADCE77 /* PSMenuView.m */; };
+		6C124EE717202CE400ADCE77 /* Vertical_Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EE617202CE400ADCE77 /* Vertical_Menu@2x.png */; };
+		6C124EE917203B1000ADCE77 /* football_pitch-wallpaper-640x960@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EE817203B1000ADCE77 /* football_pitch-wallpaper-640x960@2x.jpg */; };
+		6C124EEB17203ED800ADCE77 /* List@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EEA17203ED700ADCE77 /* List@2x.jpg */; };
+		6C124EED1720424700ADCE77 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EEC1720424700ADCE77 /* menu@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C124EB4171FEE4400ADCE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C124E73171FEE4400ADCE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C124E7A171FEE4400ADCE77;
+			remoteInfo = DTVFacebookChatHead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C124E7B171FEE4400ADCE77 /* DTVFacebookChatHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTVFacebookChatHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C124E7E171FEE4400ADCE77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C124E80171FEE4400ADCE77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C124E82171FEE4400ADCE77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C124E86171FEE4400ADCE77 /* DTVFacebookChatHead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTVFacebookChatHead-Info.plist"; sourceTree = "<group>"; };
+		6C124E88171FEE4400ADCE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C124E8A171FEE4400ADCE77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C124E8C171FEE4400ADCE77 /* DTVFacebookChatHead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTVFacebookChatHead-Prefix.pch"; sourceTree = "<group>"; };
+		6C124E8D171FEE4400ADCE77 /* DTVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTVAppDelegate.h; sourceTree = "<group>"; };
+		6C124E8E171FEE4400ADCE77 /* DTVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVAppDelegate.m; sourceTree = "<group>"; };
+		6C124E90171FEE4400ADCE77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6C124E92171FEE4400ADCE77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6C124E94171FEE4400ADCE77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6C124E97171FEE4400ADCE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6C124E9A171FEE4400ADCE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6C124E9C171FEE4400ADCE77 /* DTVFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTVFirstViewController.h; sourceTree = "<group>"; };
+		6C124E9D171FEE4400ADCE77 /* DTVFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVFirstViewController.m; sourceTree = "<group>"; };
+		6C124E9F171FEE4400ADCE77 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		6C124EA1171FEE4400ADCE77 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		6C124EA3171FEE4400ADCE77 /* DTVSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTVSecondViewController.h; sourceTree = "<group>"; };
+		6C124EA4171FEE4400ADCE77 /* DTVSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVSecondViewController.m; sourceTree = "<group>"; };
+		6C124EA6171FEE4400ADCE77 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		6C124EA8171FEE4400ADCE77 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		6C124EAF171FEE4400ADCE77 /* DTVFacebookChatHeadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTVFacebookChatHeadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C124EB0171FEE4400ADCE77 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C124EB8171FEE4400ADCE77 /* DTVFacebookChatHeadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTVFacebookChatHeadTests-Info.plist"; sourceTree = "<group>"; };
+		6C124EBA171FEE4400ADCE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C124EBC171FEE4400ADCE77 /* DTVFacebookChatHeadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTVFacebookChatHeadTests.h; sourceTree = "<group>"; };
+		6C124EBD171FEE4400ADCE77 /* DTVFacebookChatHeadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVFacebookChatHeadTests.m; sourceTree = "<group>"; };
+		6C124EC9171FEE9A00ADCE77 /* PSChatHeadBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSChatHeadBubble.h; sourceTree = "<group>"; };
+		6C124ECA171FEE9A00ADCE77 /* PSChatHeadBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSChatHeadBubble.m; sourceTree = "<group>"; };
+		6C124ECB171FEE9A00ADCE77 /* PSChatHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSChatHeadView.h; sourceTree = "<group>"; };
+		6C124ECC171FEE9A00ADCE77 /* PSChatHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSChatHeadView.m; sourceTree = "<group>"; };
+		6C124ECD171FEE9A00ADCE77 /* PSChatHeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSChatHeadViewController.h; sourceTree = "<group>"; };
+		6C124ECE171FEE9A00ADCE77 /* PSChatHeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSChatHeadViewController.m; sourceTree = "<group>"; };
+		6C124ED2171FEF1400ADCE77 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C124ED5171FEFA200ADCE77 /* CAKeyframeAnimation_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimation_Utils.h; sourceTree = "<group>"; };
+		6C124ED6171FEFA200ADCE77 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		6C124ED7171FEFA200ADCE77 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		6C124EDB171FF1CF00ADCE77 /* DTVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVTableViewController.h; sourceTree = "<group>"; };
+		6C124EDC171FF1CF00ADCE77 /* DTVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVTableViewController.m; sourceTree = "<group>"; };
+		6C124EDF171FFFD900ADCE77 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		6C124EE0171FFFD900ADCE77 /* football@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football@2x.png"; sourceTree = "<group>"; };
+		6C124EE317201DAC00ADCE77 /* PSMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMenuView.h; sourceTree = "<group>"; };
+		6C124EE417201DAD00ADCE77 /* PSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMenuView.m; sourceTree = "<group>"; };
+		6C124EE617202CE400ADCE77 /* Vertical_Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Vertical_Menu@2x.png"; path = "Assets/Vertical_Menu@2x.png"; sourceTree = "<group>"; };
+		6C124EE817203B1000ADCE77 /* football_pitch-wallpaper-640x960@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "football_pitch-wallpaper-640x960@2x.jpg"; sourceTree = "<group>"; };
+		6C124EEA17203ED700ADCE77 /* List@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "List@2x.jpg"; sourceTree = "<group>"; };
+		6C124EEC1720424700ADCE77 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C124E78171FEE4400ADCE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124ED3171FEF1400ADCE77 /* QuartzCore.framework in Frameworks */,
+				6C124E7F171FEE4400ADCE77 /* UIKit.framework in Frameworks */,
+				6C124E81171FEE4400ADCE77 /* Foundation.framework in Frameworks */,
+				6C124E83171FEE4400ADCE77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C124EAB171FEE4400ADCE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124EB1171FEE4400ADCE77 /* SenTestingKit.framework in Frameworks */,
+				6C124EB2171FEE4400ADCE77 /* UIKit.framework in Frameworks */,
+				6C124EB3171FEE4400ADCE77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C124E72171FEE4400ADCE77 = {
+			isa = PBXGroup;
+			children = (
+				6C124ED2171FEF1400ADCE77 /* QuartzCore.framework */,
+				6C124E84171FEE4400ADCE77 /* DTVFacebookChatHead */,
+				6C124EB6171FEE4400ADCE77 /* DTVFacebookChatHeadTests */,
+				6C124E7D171FEE4400ADCE77 /* Frameworks */,
+				6C124E7C171FEE4400ADCE77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C124E7C171FEE4400ADCE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C124E7B171FEE4400ADCE77 /* DTVFacebookChatHead.app */,
+				6C124EAF171FEE4400ADCE77 /* DTVFacebookChatHeadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C124E7D171FEE4400ADCE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C124E7E171FEE4400ADCE77 /* UIKit.framework */,
+				6C124E80171FEE4400ADCE77 /* Foundation.framework */,
+				6C124E82171FEE4400ADCE77 /* CoreGraphics.framework */,
+				6C124EB0171FEE4400ADCE77 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C124E84171FEE4400ADCE77 /* DTVFacebookChatHead */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EDE171FFFD900ADCE77 /* Assets */,
+				6C124ED9171FF19000ADCE77 /* ViewController */,
+				6C124EC7171FEE9A00ADCE77 /* Library */,
+				6C124E8D171FEE4400ADCE77 /* DTVAppDelegate.h */,
+				6C124E8E171FEE4400ADCE77 /* DTVAppDelegate.m */,
+				6C124E96171FEE4400ADCE77 /* MainStoryboard_iPhone.storyboard */,
+				6C124E99171FEE4400ADCE77 /* MainStoryboard_iPad.storyboard */,
+				6C124E85171FEE4400ADCE77 /* Supporting Files */,
+			);
+			path = DTVFacebookChatHead;
+			sourceTree = "<group>";
+		};
+		6C124E85171FEE4400ADCE77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C124E86171FEE4400ADCE77 /* DTVFacebookChatHead-Info.plist */,
+				6C124E87171FEE4400ADCE77 /* InfoPlist.strings */,
+				6C124E8A171FEE4400ADCE77 /* main.m */,
+				6C124E8C171FEE4400ADCE77 /* DTVFacebookChatHead-Prefix.pch */,
+				6C124E90171FEE4400ADCE77 /* Default.png */,
+				6C124E92171FEE4400ADCE77 /* Default@2x.png */,
+				6C124E94171FEE4400ADCE77 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C124EB6171FEE4400ADCE77 /* DTVFacebookChatHeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EBC171FEE4400ADCE77 /* DTVFacebookChatHeadTests.h */,
+				6C124EBD171FEE4400ADCE77 /* DTVFacebookChatHeadTests.m */,
+				6C124EB7171FEE4400ADCE77 /* Supporting Files */,
+			);
+			path = DTVFacebookChatHeadTests;
+			sourceTree = "<group>";
+		};
+		6C124EB7171FEE4400ADCE77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EB8171FEE4400ADCE77 /* DTVFacebookChatHeadTests-Info.plist */,
+				6C124EB9171FEE4400ADCE77 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C124EC7171FEE9A00ADCE77 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EC8171FEE9A00ADCE77 /* ChatHead */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6C124EC8171FEE9A00ADCE77 /* ChatHead */ = {
+			isa = PBXGroup;
+			children = (
+				6C124ED4171FEFA200ADCE77 /* External */,
+				6C124EC9171FEE9A00ADCE77 /* PSChatHeadBubble.h */,
+				6C124ECA171FEE9A00ADCE77 /* PSChatHeadBubble.m */,
+				6C124ECB171FEE9A00ADCE77 /* PSChatHeadView.h */,
+				6C124ECC171FEE9A00ADCE77 /* PSChatHeadView.m */,
+				6C124ECD171FEE9A00ADCE77 /* PSChatHeadViewController.h */,
+				6C124ECE171FEE9A00ADCE77 /* PSChatHeadViewController.m */,
+				6C124EE317201DAC00ADCE77 /* PSMenuView.h */,
+				6C124EE417201DAD00ADCE77 /* PSMenuView.m */,
+			);
+			path = ChatHead;
+			sourceTree = "<group>";
+		};
+		6C124ED4171FEFA200ADCE77 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6C124ED5171FEFA200ADCE77 /* CAKeyframeAnimation_Utils.h */,
+				6C124ED6171FEFA200ADCE77 /* ViewUtils.h */,
+				6C124ED7171FEFA200ADCE77 /* ViewUtils.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		6C124ED9171FF19000ADCE77 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EDA171FF1A500ADCE77 /* Assets */,
+				6C124E9C171FEE4400ADCE77 /* DTVFirstViewController.h */,
+				6C124E9D171FEE4400ADCE77 /* DTVFirstViewController.m */,
+				6C124EA3171FEE4400ADCE77 /* DTVSecondViewController.h */,
+				6C124EA4171FEE4400ADCE77 /* DTVSecondViewController.m */,
+				6C124EDB171FF1CF00ADCE77 /* DTVTableViewController.h */,
+				6C124EDC171FF1CF00ADCE77 /* DTVTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6C124EDA171FF1A500ADCE77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EE617202CE400ADCE77 /* Vertical_Menu@2x.png */,
+				6C124E9F171FEE4400ADCE77 /* first.png */,
+				6C124EA1171FEE4400ADCE77 /* first@2x.png */,
+				6C124EA6171FEE4400ADCE77 /* second.png */,
+				6C124EA8171FEE4400ADCE77 /* second@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6C124EDE171FFFD900ADCE77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EEC1720424700ADCE77 /* menu@2x.png */,
+				6C124EEA17203ED700ADCE77 /* List@2x.jpg */,
+				6C124EE817203B1000ADCE77 /* football_pitch-wallpaper-640x960@2x.jpg */,
+				6C124EDF171FFFD900ADCE77 /* football.png */,
+				6C124EE0171FFFD900ADCE77 /* football@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C124E7A171FEE4400ADCE77 /* DTVFacebookChatHead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C124EC1171FEE4400ADCE77 /* Build configuration list for PBXNativeTarget "DTVFacebookChatHead" */;
+			buildPhases = (
+				6C124E77171FEE4400ADCE77 /* Sources */,
+				6C124E78171FEE4400ADCE77 /* Frameworks */,
+				6C124E79171FEE4400ADCE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTVFacebookChatHead;
+			productName = DTVFacebookChatHead;
+			productReference = 6C124E7B171FEE4400ADCE77 /* DTVFacebookChatHead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C124EAE171FEE4400ADCE77 /* DTVFacebookChatHeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C124EC4171FEE4400ADCE77 /* Build configuration list for PBXNativeTarget "DTVFacebookChatHeadTests" */;
+			buildPhases = (
+				6C124EAA171FEE4400ADCE77 /* Sources */,
+				6C124EAB171FEE4400ADCE77 /* Frameworks */,
+				6C124EAC171FEE4400ADCE77 /* Resources */,
+				6C124EAD171FEE4400ADCE77 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C124EB5171FEE4400ADCE77 /* PBXTargetDependency */,
+			);
+			name = DTVFacebookChatHeadTests;
+			productName = DTVFacebookChatHeadTests;
+			productReference = 6C124EAF171FEE4400ADCE77 /* DTVFacebookChatHeadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C124E73171FEE4400ADCE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DTV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daniel Tavares";
+			};
+			buildConfigurationList = 6C124E76171FEE4400ADCE77 /* Build configuration list for PBXProject "DTVFacebookChatHead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C124E72171FEE4400ADCE77;
+			productRefGroup = 6C124E7C171FEE4400ADCE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C124E7A171FEE4400ADCE77 /* DTVFacebookChatHead */,
+				6C124EAE171FEE4400ADCE77 /* DTVFacebookChatHeadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C124E79171FEE4400ADCE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124E89171FEE4400ADCE77 /* InfoPlist.strings in Resources */,
+				6C124E91171FEE4400ADCE77 /* Default.png in Resources */,
+				6C124E93171FEE4400ADCE77 /* Default@2x.png in Resources */,
+				6C124E95171FEE4400ADCE77 /* Default-568h@2x.png in Resources */,
+				6C124E98171FEE4400ADCE77 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6C124E9B171FEE4400ADCE77 /* MainStoryboard_iPad.storyboard in Resources */,
+				6C124EA0171FEE4400ADCE77 /* first.png in Resources */,
+				6C124EA2171FEE4400ADCE77 /* first@2x.png in Resources */,
+				6C124EA7171FEE4400ADCE77 /* second.png in Resources */,
+				6C124EA9171FEE4400ADCE77 /* second@2x.png in Resources */,
+				6C124EE1171FFFD900ADCE77 /* football.png in Resources */,
+				6C124EE2171FFFD900ADCE77 /* football@2x.png in Resources */,
+				6C124EE717202CE400ADCE77 /* Vertical_Menu@2x.png in Resources */,
+				6C124EE917203B1000ADCE77 /* football_pitch-wallpaper-640x960@2x.jpg in Resources */,
+				6C124EEB17203ED800ADCE77 /* List@2x.jpg in Resources */,
+				6C124EED1720424700ADCE77 /* menu@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C124EAC171FEE4400ADCE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124EBB171FEE4400ADCE77 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C124EAD171FEE4400ADCE77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C124E77171FEE4400ADCE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124E8B171FEE4400ADCE77 /* main.m in Sources */,
+				6C124E8F171FEE4400ADCE77 /* DTVAppDelegate.m in Sources */,
+				6C124E9E171FEE4400ADCE77 /* DTVFirstViewController.m in Sources */,
+				6C124EA5171FEE4400ADCE77 /* DTVSecondViewController.m in Sources */,
+				6C124ECF171FEE9A00ADCE77 /* PSChatHeadBubble.m in Sources */,
+				6C124ED0171FEE9A00ADCE77 /* PSChatHeadView.m in Sources */,
+				6C124ED1171FEE9A00ADCE77 /* PSChatHeadViewController.m in Sources */,
+				6C124ED8171FEFA200ADCE77 /* ViewUtils.m in Sources */,
+				6C124EDD171FF1CF00ADCE77 /* DTVTableViewController.m in Sources */,
+				6C124EE517201DAF00ADCE77 /* PSMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C124EAA171FEE4400ADCE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C124EBE171FEE4400ADCE77 /* DTVFacebookChatHeadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C124EB5171FEE4400ADCE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C124E7A171FEE4400ADCE77 /* DTVFacebookChatHead */;
+			targetProxy = 6C124EB4171FEE4400ADCE77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C124E87171FEE4400ADCE77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C124E88171FEE4400ADCE77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C124E96171FEE4400ADCE77 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C124E97171FEE4400ADCE77 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6C124E99171FEE4400ADCE77 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C124E9A171FEE4400ADCE77 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6C124EB9171FEE4400ADCE77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C124EBA171FEE4400ADCE77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C124EBF171FEE4400ADCE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Hollis (9P3S8BWHSQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Hollis (9P3S8BWHSQ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D31D3AA3-5004-4A1D-92AA-C84C2497ABE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D31D3AA3-5004-4A1D-92AA-C84C2497ABE4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C124EC0171FEE4400ADCE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C124EC2171FEE4400ADCE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Hollis (9P3S8BWHSQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Hollis (9P3S8BWHSQ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTVFacebookChatHead/DTVFacebookChatHead-Prefix.pch";
+				INFOPLIST_FILE = "DTVFacebookChatHead/DTVFacebookChatHead-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D31D3AA3-5004-4A1D-92AA-C84C2497ABE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D31D3AA3-5004-4A1D-92AA-C84C2497ABE4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C124EC3171FEE4400ADCE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Grapple Mobile Ltd";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTVFacebookChatHead/DTVFacebookChatHead-Prefix.pch";
+				INFOPLIST_FILE = "DTVFacebookChatHead/DTVFacebookChatHead-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32C9460F-BBE9-4230-8DF1-5DC3368963D7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C124EC5171FEE4400ADCE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DTVFacebookChatHead.app/DTVFacebookChatHead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTVFacebookChatHead/DTVFacebookChatHead-Prefix.pch";
+				INFOPLIST_FILE = "DTVFacebookChatHeadTests/DTVFacebookChatHeadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6C124EC6171FEE4400ADCE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DTVFacebookChatHead.app/DTVFacebookChatHead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTVFacebookChatHead/DTVFacebookChatHead-Prefix.pch";
+				INFOPLIST_FILE = "DTVFacebookChatHeadTests/DTVFacebookChatHeadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C124E76171FEE4400ADCE77 /* Build configuration list for PBXProject "DTVFacebookChatHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C124EBF171FEE4400ADCE77 /* Debug */,
+				6C124EC0171FEE4400ADCE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C124EC1171FEE4400ADCE77 /* Build configuration list for PBXNativeTarget "DTVFacebookChatHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C124EC2171FEE4400ADCE77 /* Debug */,
+				6C124EC3171FEE4400ADCE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C124EC4171FEE4400ADCE77 /* Build configuration list for PBXNativeTarget "DTVFacebookChatHeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C124EC5171FEE4400ADCE77 /* Debug */,
+				6C124EC6171FEE4400ADCE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C124E73171FEE4400ADCE77 /* Project object */;
+}
