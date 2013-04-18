@@ -15,10 +15,11 @@
 {
 
     UITabBarController *tab = (UITabBarController *)self.window.rootViewController;
+    [tab setSelectedIndex:1];
     [self hideTabBar:tab];
 
     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-        [self initializeChatHead];
+        //[self initializeChatHead];
     }];
       
     return YES;
