@@ -11,19 +11,22 @@
 
 @implementation DTVAppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
+//
     UITabBarController *tab = (UITabBarController *)self.window.rootViewController;
-    [tab setSelectedIndex:1];
-    [self hideTabBar:tab];
+    [tab setSelectedIndex:2];
+    //[self hideTabBar:tab];
 
     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
         //[self initializeChatHead];
     }];
+    
       
     return YES;
 }
+
 
 -(void)initializeChatHead
 {

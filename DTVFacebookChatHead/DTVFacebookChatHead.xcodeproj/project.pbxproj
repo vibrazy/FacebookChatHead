@@ -45,6 +45,7 @@
 		6C124EF1172056E200ADCE77 /* DTVSlidingMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EF0172056E200ADCE77 /* DTVSlidingMenu.m */; };
 		6C124EF41720571600ADCE77 /* TabBarE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EF21720571400ADCE77 /* TabBarE@2x.jpg */; };
 		6C124EF51720571600ADCE77 /* TabBar@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C124EF31720571400ADCE77 /* TabBar@2x.jpg */; };
+		6C124EFA172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124EF9172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		6C124EF0172056E200ADCE77 /* DTVSlidingMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTVSlidingMenu.m; path = SlidingMeun/DTVSlidingMenu.m; sourceTree = "<group>"; };
 		6C124EF21720571400ADCE77 /* TabBarE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TabBarE@2x.jpg"; sourceTree = "<group>"; };
 		6C124EF31720571400ADCE77 /* TabBar@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TabBar@2x.jpg"; sourceTree = "<group>"; };
+		6C124EF8172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SwizzleMyNizzle.h"; path = "SwizzleMyNizzle/UIScrollView+SwizzleMyNizzle.h"; sourceTree = "<group>"; };
+		6C124EF9172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SwizzleMyNizzle.m"; path = "SwizzleMyNizzle/UIScrollView+SwizzleMyNizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				6C124ED2171FEF1400ADCE77 /* QuartzCore.framework */,
-				6C124E84171FEE4400ADCE77 /* DTVFacebookChatHead */,
+				6C124EF61721557B00ADCE77 /* Classes */,
 				6C124EB6171FEE4400ADCE77 /* DTVFacebookChatHeadTests */,
 				6C124E7D171FEE4400ADCE77 /* Frameworks */,
 				6C124E7C171FEE4400ADCE77 /* Products */,
@@ -172,6 +175,7 @@
 		6C124E84171FEE4400ADCE77 /* DTVFacebookChatHead */ = {
 			isa = PBXGroup;
 			children = (
+				6C124EF71721558300ADCE77 /* SwizzleMyNizzle */,
 				6C124EDE171FFFD900ADCE77 /* Assets */,
 				6C124ED9171FF19000ADCE77 /* ViewController */,
 				6C124EC7171FEE9A00ADCE77 /* Library */,
@@ -299,6 +303,23 @@
 				6C124EF0172056E200ADCE77 /* DTVSlidingMenu.m */,
 			);
 			name = "Second Tab";
+			sourceTree = "<group>";
+		};
+		6C124EF61721557B00ADCE77 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C124E84171FEE4400ADCE77 /* DTVFacebookChatHead */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6C124EF71721558300ADCE77 /* SwizzleMyNizzle */ = {
+			isa = PBXGroup;
+			children = (
+				6C124EF8172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.h */,
+				6C124EF9172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.m */,
+			);
+			name = SwizzleMyNizzle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,6 +457,7 @@
 				6C124EDD171FF1CF00ADCE77 /* DTVTableViewController.m in Sources */,
 				6C124EE517201DAF00ADCE77 /* PSMenuView.m in Sources */,
 				6C124EF1172056E200ADCE77 /* DTVSlidingMenu.m in Sources */,
+				6C124EFA172155A500ADCE77 /* UIScrollView+SwizzleMyNizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +659,7 @@
 				6C124EC3171FEE4400ADCE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C124EC4171FEE4400ADCE77 /* Build configuration list for PBXNativeTarget "DTVFacebookChatHeadTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +668,7 @@
 				6C124EC6171FEE4400ADCE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
